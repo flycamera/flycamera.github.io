@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Flying Download Station</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=5.0"/>
+		<link rel="stylesheet" href="./css/new.css">
+	</head>
+	<body>
+		<div id="particles-js">
+		</div>
+		<div class="container">
+			<h1>请选择下载站</h1>
+		 </p>本站免费，如有收钱行为则是倒卖，大家举报就行</p>
+         </p>那些倒卖的我劝你：我有开源声明，如再发生这种行为，我们法庭见！！！</p>
+			<div class="content">
+				<div class="main">
+					<div class="a-main">
+						<h3>飞影下载站</h3>
+			
+					</div>
+				
+					<div class="g-main">
+						<div class="wz-main">
+							<strong>最新网址 [Gitee托管]</strong>
+							<em>不可用！！</em>
+						</div>
+						<span><a href="https://flycamera.gitee.io/hh.html">点击进入</a></span>
+					</div>
+					<div class="g-main">
+						<div class="wz-main">
+							<strong>最新网址 [GitHub托管]</strong>
+							<em>推荐！！</em>
+						</div>
+						<span><a href="https://flycamera.github.io/hh.html">点击进入</a></span>
+					</div>
+					<div class="g-main">
+						<div class="wz-main">
+							<strong>new URL (English Visions)[GitHub page]</strong>
+							<em></em>
+						</div>
+						<span><a href="https://flycamera.github.io/eng/hh.html">点击进入</a></span>
+					</div>
+					<div class="g-main">
+						<div class="wz-main">
+							
+							<strong>请记住此域名</strong>
+							<em>https://flycamera.github.io</em>
+						</div>
+						</div>
+
+			</div>
+			
+		</div>
+		<script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
+		<script src="./js/particles.js"></script>
+		<script src="./js/app.js"></script>
+		<script src="js/new.js"></script>
+		<script language="javascript">
+			function click() {
+			if (event.button==2) {
+			alert('想右键查看源代码？别想啦，我已经开源了，小心法庭见')
+			}
+			}
+			document.onmousedown=click
+			
+			</script>
+			<script>
+			document.onkeydown = function(){
+				if(window.event && window.event.keyCode == 123) {
+					alert("右键不成还想直接f12偷代码？告诉你这是不可能的！你已经被记录了，小心站主屏蔽！");
+					event.keyCode=0;
+					event.returnValue=false;
+				}
+				if(window.event && window.event.keyCode == 13) {
+					window.event.keyCode = 505;
+				}
+				if(window.event && window.event.keyCode == 8) {
+					alert(str+"\n请使用Del键进行字符的删除操作！");
+					window.event.returnValue=false;
+				}
+			}
+			document.oncontextmenu = function (event){
+				if(window.event){
+				event = window.event;
+				}
+				try{
+				var the = event.srcElement;
+					if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+					return false;
+					}
+					return true;
+				}
+				catch (e){
+					return false;
+				}
+			}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 基础信息 -->
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="force-rendering" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="飞影Windows下载站">
+    <meta name="keywords" content="飞影Windows下载站">
+    <meta name="author" content="飞影Windows下载站">
+    <title>飞影qemu下载站</title>
+    <link rel="stylesheet" type="text/css" href="./css/stye.css">
+    <link rel="stylesheet" type="text/css" href="./css/iconfont.css">
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico">
+    <!--引入SweetAlert
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+    <!--引入izitoast-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
+    <!--引入fontawesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css"
+        media="all">
+    <!--IE淘汰计划-->
+    <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)) window.location.href = "https://imsyy.top/upgrade-your-browser/index.html?referrer=" + encodeURIComponent(window.location.href);</script>
+</head>
+
+    <!--<span class="mobile btn-mobile-menu">
+        <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+        <i class="social iconfont icon-ngleup btn-mobile-close__icon hidden"></i>
+    </span>-->
+    <header id="panel" class="panel-cover">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content">
+                    <div class="ih-item circle effect right_to_left">
+                        <a class="blog-button">
+                            <div class="img"><img src="" alt="img" class="js-avatar iUp profilepic">
+                            </div>
+                            <div class="info iUp">
+                                <div class="info-back">
+                                    <h2>flycamera</h2>
+                                    <p>飞影下载站</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <h1 class="panel-cover__title panel-title iUp">
+                        <br />QEMU镜像
+                    </h1>
+                    <p class="panel-cover__subtitle panel-subtitle iUp">此选项包括对qemu，limbo，boch的镜像支持</p>
+                    <hr class="panel-cover__divider iUp" />
+                    
+                    </p>
+                    <div class="navigation-wrapper iUp">
+                        <div>
+                            <nav class="cover-navigation cover-navigation--primary">
+                                <ul class="navigation">
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-GEKW3" target="_blank" class="blog-button">
+                                            <div>limbo与boch apk下载</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <!--<a onclick="update()" class="blog-button">-->
+                                        <a href="https://www.123pan.com/s/Rz6UVv-PEKW3" target="_blank" class="blog-button">
+                                            <div>limbo模拟的硬件驱动</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-XEKW3" target="_blank" class="blog-button">
+                                            <div>Windows10镜像</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-nEKW3" target="_blank" class="blog-button">
+                                            <div>Windows7/8镜像</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-2EKW3" class="blog-button">
+                                            <div>Windows xp镜像</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-WEKW3" class="blog-button">
+                                            <div>老版本win镜像</div>
+                                        </a>
+                                    </li>
+                                    <li class="navigation__item">
+                                        <a href="https://www.123pan.com/s/Rz6UVv-CEKW3" class="blog-button">
+                                            <div>稀有版本Windows镜像</div>
+                                        </a>
+                                    </li>
+                                   
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="iUp">
+                            <nav class="cover-navigation navigation--social">
+                                <ul class="navigation">
+
+                                    <li class="navigation__item">
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay cover-slate"></div>
+        </div>
+        <div class="remark iUp">
+            <p class="power">Copyright © 2022
+                <script>document.write(' - ' + (new Date()).getFullYear())</script> ZiYuanPro.Com
+            </p>
+        </div>
+    </header>
+    <!--izitoast弹窗设置-->
+    <script>
+        iziToast.settings({
+            timeout: 4000,//调试
+            icon: 'Fontawesome',
+            closeOnEscape: 'true',
+            position: 'topRight',
+            transitionOut: 'fadeOutRight',
+            displayMode: '2',
+            layout: '2',
+            transitionIn: 'bounceInLeft',
+        });
+    </script>
+    <!--izitoast内容-->
+    <script>
+        function update() {
+            iziToast.info({
+                icon: 'fad fa-times-octagon',
+                backgroundColor: '#efefef',
+                title: '站点暂时关闭',
+                message: '只是出现了一点小问题 ~'
+            });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.0.8/js/maodian.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/fetch.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script language="javascript">
+        function click() {
+        if (event.button==2) {
+        alert('想右键查看源代码？别想啦，我已经开源了，小心法庭见')
+        }
+        }
+        document.onmousedown=click
+        
+        </script>
+        <script>
+        document.onkeydown = function(){
+            if(window.event && window.event.keyCode == 123) {
+                alert("右键不成还想直接f12偷代码？告诉你这是不可能的！你已经被记录了，小心站主屏蔽！");
+                event.keyCode=0;
+                event.returnValue=false;
+            }
+            if(window.event && window.event.keyCode == 13) {
+                window.event.keyCode = 505;
+            }
+            if(window.event && window.event.keyCode == 8) {
+                alert(str+"\n请使用Del键进行字符的删除操作！");
+                window.event.returnValue=false;
+            }
+        }
+        document.oncontextmenu = function (event){
+            if(window.event){
+            event = window.event;
+            }
+            try{
+            var the = event.srcElement;
+                if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+                }
+                return true;
+            }
+            catch (e){
+                return false;
+            }
+        }
+        </script>
+</body>
+
+</html>
