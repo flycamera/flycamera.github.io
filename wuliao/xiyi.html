@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>飞影的洗衣机</title>
+
+<link rel="stylesheet" href="css/xiyi.css">
+
+</head>
+<body>
+
+<div id="wrapper">	
+	<div id="washingMachine" class="isFilled isOpen">
+		<div id="controls">准备中</div>
+		<div id="door"></div>
+		<div id="tub">
+			<span class="clothes"></span>
+			<span class="clothes"></span>
+			<span class="clothes"></span>
+		</div>
+	</div>
+	
+	<div id="playground">
+		<button id="content">清空</button>
+		<button id="opening">关门</button>
+		<button id="power" disabled>开始</button>
+	</div>
+</div>
+
+<script src="js/script.js"></script>
+<script language="javascript">
+	function click() {
+	if (event.button==2) {
+	alert('想右键查看源代码？别想啦，我已经开源了，小心法庭见')
+	}
+	}
+	document.onmousedown=click
+	
+	</script>
+	<script>
+	document.onkeydown = function(){
+		if(window.event && window.event.keyCode == 123) {
+			alert("右键不成还想直接f12偷代码？告诉你这是不可能的！你已经被记录了，小心站主屏蔽！");
+			event.keyCode=0;
+			event.returnValue=false;
+		}
+		if(window.event && window.event.keyCode == 13) {
+			window.event.keyCode = 505;
+		}
+		if(window.event && window.event.keyCode == 8) {
+			alert(str+"\n请使用Del键进行字符的删除操作！");
+			window.event.returnValue=false;
+		}
+	}
+	document.oncontextmenu = function (event){
+		if(window.event){
+		event = window.event;
+		}
+		try{
+		var the = event.srcElement;
+			if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+			return false;
+			}
+			return true;
+		}
+		catch (e){
+			return false;
+		}
+	}
+	</script>
+
+</body>
+</html>
