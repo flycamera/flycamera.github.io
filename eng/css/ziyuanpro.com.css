@@ -1,0 +1,78 @@
+/* 资源PRO - ZiYuanPro.Com - 免费分享精品资源网站 */
+
+body {
+  background-color: #232f3a;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+body .draw-box {
+  overflow: hidden;
+  position: relative;
+  margin-top: 60px;
+  width: 335px;
+}
+body .draw-box .typewriter-effect {
+  overflow: hidden;
+  -webkit-animation: typingEffect 1.6s steps(22) forwards, blinkTextCursor 1s infinite;
+          animation: typingEffect 1.6s steps(22) forwards, blinkTextCursor 1s infinite;
+  width: 0;
+  color: #e8e8e8;
+  height: 40px;
+  font-size: 34px;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 0.9;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+@-webkit-keyframes typingEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 98%;
+  }
+}
+@keyframes typingEffect {
+  from {
+    width: 0;
+  }
+  to {
+    width: 98%;
+  }
+}
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right: 3px solid #f8f8f8;
+  }
+  to {
+    border-right: transparent;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right: 3px solid #f8f8f8;
+  }
+  to {
+    border-right: transparent;
+  }
+}
+body .draw-box svg {
+  width: 93%;
+  margin-top: 10px;
+}
+body .draw-box svg .stroke {
+  fill: none;
+  stroke: #e8e8e8;
+  stroke-width: 0.8;
+}
+body .draw-box svg .coffeeColor {
+  fill: #b59440;
+}
+body .draw-box svg .steamColor {
+  fill: #ddd;
+}
+body .draw-box svg .ripple {
+  transform: translate3d(-30%, 100%, 0);
+}
+/* 资源PRO - ZiYuanPro.Com - 免费分享精品资源网站 */
